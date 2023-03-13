@@ -1,0 +1,27 @@
+.main{
+    margin-top: 10px;
+    padding: 20px;
+}
+
+.favourites-genres{
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+
+.fav-input{
+    display: flex;
+    height: 80px;
+   
+}
+
+.input-group{
+   justify-content: space-evenly !important;
+   flex-wrap: wrap !important;
+}
+
+@media screen and (max-width:700px) {
+    .main-table{
+        overflow-x: scroll;
+    }
+}
